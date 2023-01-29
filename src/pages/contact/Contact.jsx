@@ -28,9 +28,10 @@ const Contact = () => {
   return (
     <section className="contact">
       <div className="contact__top">
-        <p>THOMAS LE CAM</p>
-        <p>Développeur frontend</p>
-        <ul>
+        <p className="contact__top__name">THOMAS LE CAM</p>
+        <p className="contact__top__job">Développeur frontend</p>
+        <ul className="contact__top__details">
+          <li>Montpellier</li>
           <li>06 43 84 36 32</li>
           <li> Email :thomas.lecam@gmail.com</li>
           <li> Linkedin / Github / CV </li>
