@@ -39,7 +39,7 @@ const Contact = () => {
       </div>
       <div className="contact__bottom">
         <form ref={form} onSubmit={sendEmail} className="contact__bottom__form">
-          <h1 className="contact__bottom__form__title">CONTACT</h1>
+          <h1 className="contact__bottom__form__title"> * 03.CONTACT</h1>
           <input
             type="text"
             className="contact__bottom__form__input"
