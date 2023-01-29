@@ -1,0 +1,36 @@
+.container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+
+  &__logo {
+    width: 20%;
+  }
+}
+.project {
+  &__pitch {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  &__mission {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 23px;
+    &__title {
+      color: #db4c44;
+    }
+    &__technos {
+      &__list {
+        display: flex;
+      }
+
+      &__logo {
+        width: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+@use "../../assets/styles/mixins" as mixin;
+
+.home {
+  height: 100vh;
+  background-color: var(--gray-1);
+  padding: 60px 80px;
+
+  &__container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    @include mixin.lg-lt {
+      flex-direction: column;
+    }
+
+    &__description {
+      @include mixin.lg-lt {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+      }
+      @include mixin.md-lt {
+        flex-direction: column;
+      }
+      &__name {
+        font-size: 8vw;
+        font-weight: 900;
+        line-height: 8vw;
+      }
+      &__bottom {
+        &__position {
+          line-height: 60px;
+          background-color: var(--gray-1);
+        }
+        &__text {
+          max-width: 500px;
+          background-color: var(--gray-1);
+        }
+      }
+    }
+  }
+
+  .home__container__pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 40px;
+
+    &__top {
+      display: flex;
+      justify-content: space-between;
+
+      &__card {
+        max-width: 400px;
+        height: 350px;
+        overflow: hidden;
+
+        &__picture {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    &__bottom {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      column-gap: 20px;
+      &__card {
+        max-width: 300px;
+        height: 250px;
+        overflow: hidden;
+
+        &__picture {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
