@@ -38,7 +38,7 @@
 }
 
 #homeNav:hover {
-  background-color: #3f3b37;
+  background-color: var(--gray-2);
   color: white;
   .number {
     opacity: 1;
@@ -46,7 +46,7 @@
 }
 
 #aboutNav:hover {
-  background-color: #e7aa2c;
+  background-color: var(--orange);
 
   color: white;
   .number {
@@ -54,7 +54,7 @@
   }
 }
 #worksNav:hover {
-  background-color: #db4c44;
+  background-color: var(--red);
 
   color: white;
   .number {
@@ -62,7 +62,7 @@
   }
 }
 #contactNav:hover {
-  background-color: #119d66;
+  background-color: var(--green);
 
   color: white;
   .number {

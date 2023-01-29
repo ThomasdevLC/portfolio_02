@@ -31,7 +31,7 @@
       grid-template-columns: 1fr;
       &__title {
         border-bottom: 1px solid black;
-        padding: 0 10px 60px 10px;
+        padding: 0 10px 30px 10px;
         font-size: 6vw;
       }
       &__input {
@@ -39,7 +39,7 @@
         outline: none;
         border: none;
         border-bottom: 1px solid black;
-        padding: 10px;
+        padding: 30px;
         font-size: 20px;
         font-weight: 700;
       }
@@ -47,11 +47,19 @@
         background-color: var(--gray-1);
         outline: none;
         border: none;
-        padding: 10px;
+        padding: 30px;
         height: 100px;
         font-size: 20px;
         font-weight: 700;
         resize: none;
+      }
+      &__btn {
+        font-size: 16px;
+        font-weight: 700;
+        width: 180px;
+        height: 50px;
+        cursor: pointer;
+        background-color: white;
       }
     }
   }

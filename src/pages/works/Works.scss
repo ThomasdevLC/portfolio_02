@@ -23,7 +23,7 @@
 }
 
 .block {
-  background-color: #db4c44;
+  background-color: var(--red);
   height: 350px;
 }
 
@@ -40,7 +40,7 @@
 
 .over {
   &:hover {
-    background-color: #e7aa2c;
+    background-color: var(--orange);
   }
 }
 
