@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../../assets/images/groupomania/groupomania-logo.jpg";
-// import video from "../../../assets/videos/groupomania-video.mp4";
+import video from "../../../assets/videos/groupomania-video.mp4";
 import react from "../../../assets/images/technos/react.png";
 import Header from "../../../components/header/Header";
 
@@ -16,14 +16,14 @@ const Groupomania = () => {
           src={logo}
           alt="video site groupomania"
         />
-        {/* <video
+        <video
           className="container__video"
           width="100%"
           src={video}
           type="video/mp4"
           loop
           autoPlay
-        ></video> */}
+        ></video>
         <div className="project">
           <p className="project__pitch">
             Dans le cadre d'un des projet Openclassrooms, il était demandé
