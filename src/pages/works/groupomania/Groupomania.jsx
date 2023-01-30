@@ -9,8 +9,8 @@ import "./Groupomania.scss";
 const Groupomania = () => {
   return (
     <>
-      <Header />
       <div className="container">
+        <Header />
         <img
           className="container__logo"
           src={logo}

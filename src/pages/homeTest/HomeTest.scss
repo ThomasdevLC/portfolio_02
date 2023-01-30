@@ -33,6 +33,10 @@
       "text text  "
       "image-one image-two"
       "image-three image-four";
+
+    @include mixin.xs {
+      margin-top: 10px;
+    }
   }
 
   &__text {
