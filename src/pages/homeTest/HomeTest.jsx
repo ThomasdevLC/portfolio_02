@@ -12,8 +12,8 @@ const HomeTest = () => {
     <div className="HomeTest">
       <Header />
 
-      <div class="HomeTest__grid">
-        <div class="HomeTest__grid__text text">
+      <div class="HomeTest__grid br">
+        <div class="HomeTest__grid__text text-grid">
           <h1 className="HomeTest__grid__text__name">THOMAS LE CAM</h1>
 
           <h2 className="HomeTest__grid__text__position">
