@@ -5,7 +5,7 @@ import { HashLink as Link } from "react-router-hash-link";
 const Header = () => {
   return (
     <div className="header">
-      <nav className="header__nav">
+      <nav className="header__nav br">
         <div className="header__nav__title"> PORTFOLIO 2023</div>
         <div className="header__nav__menu">
           <Link to="#home">
@@ -34,9 +34,9 @@ const Header = () => {
               contact
             </li>
           </Link>
-          <Link to="/#works">
+          {/* <Link to="/#works">
             <li className="header__nav__menu__item">test</li>
-          </Link>
+          </Link> */}
         </div>
       </nav>
     </div>

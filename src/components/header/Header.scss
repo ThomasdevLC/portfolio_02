@@ -1,3 +1,5 @@
+@use "../../assets/styles/mixins" as mixin;
+
 .header {
   display: flex;
   justify-content: center;
@@ -10,10 +12,22 @@
     justify-content: space-between;
     padding-bottom: 40px;
     border-bottom: 1px solid black;
+    @include mixin.sm-lt {
+      flex-direction: column;
+    }
 
     &__title {
       font-weight: 700;
       font-size: 18px;
+      padding: 10px 15px;
+
+      @include mixin.md-lt {
+        font-size: 14px;
+      }
+      @include mixin.sm-lt {
+        display: flex;
+        justify-content: center;
+      }
     }
 
     &__menu {
