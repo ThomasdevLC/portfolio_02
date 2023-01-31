@@ -4,16 +4,16 @@ import "./About.scss";
 
 const About = () => {
   return (
-    <div className="about" id="about">
-      <div className="about__picture">
-        <img src={photo} alt="photo" />
-      </div>
-
-      <div className="about__introduce">
-        <div className="about__introduce__title">
+    <div className="about br" id="about">
+      <div className="about__introduce ">
+        <h1 className="about__introduce__title">
           <span className="about__introduce__title__number">02.</span>
           présentation
-        </div>
+        </h1>
+        <h2 className="about__introduce__intro">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />{" "}
+          Repellendus error quisquam reprehenderit!
+        </h2>
         <p className="about__introduce__text">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
           facilis illum fugit provident assumenda ad itaque nostrum veniam quae
@@ -32,6 +32,9 @@ const About = () => {
           aliquid, dolorum dolore aperiam quae.
         </p>
       </div>
+      {/* <div className="about__picture">
+        <img src={photo} alt="photo" />
+      </div> */}
     </div>
   );
 };

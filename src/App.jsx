@@ -25,7 +25,7 @@ const App = () => {
 
   const variants = {
     default: {
-      opacity: 1,
+      opacity: 0,
       x: mousePositon.x,
       y: mousePositon.y,
     },
