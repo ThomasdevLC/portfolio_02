@@ -14,18 +14,22 @@
   }
 
   &__introduce {
+    width: 100%;
     &__title {
+      font-family: "Kaisei Decol", serif;
       font-size: 8rem;
       font-weight: 700;
-      padding-top: 60px;
       margin-bottom: 40px;
     }
     &__intro {
       line-height: 30px;
+      margin-bottom: 40px;
+      margin: auto;
     }
     &__text {
-      width: 500px;
+      width: 800px;
       line-height: 30px;
+      margin: auto;
     }
   }
   &__picture {
@@ -43,6 +47,21 @@
       height: 100%;
       width: 100%;
       object-fit: cover;
+    }
+  }
+
+  &__links {
+    font-family: "Kaisei Decol", serif;
+    font-weight: 900;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    :hover {
+      font-style: oblique;
+      cursor: pointer;
+      transform: translate(3px);
+      transition: all 400ms;
     }
   }
 }

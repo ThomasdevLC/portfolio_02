@@ -31,7 +31,13 @@ const About = () => {
           quae ea dicta perferendis ipsam. Nulla illum enim consequuntur
           aliquid, dolorum dolore aperiam quae.
         </p>
+        <div className="about__links">
+          <div className="about__links__linkedin">LINKEDIN</div>
+          <div className="about__links__git">GITHUB</div>
+          <div className="about__links__cv">CV</div>
+        </div>
       </div>
+
       {/* <div className="about__picture">
         <img src={photo} alt="photo" />
       </div> */}

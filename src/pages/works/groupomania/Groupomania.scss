@@ -1,11 +1,22 @@
 .container {
-  max-width: 1400px;
+  background-color: var(--gray-1);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 80px;
   margin: auto;
-  padding: 80px 60px;
+  padding: 0 140px 80px 140px;
+
+  &__title {
+    background-color: var(--gray-2);
+    color: var(--gray-1);
+    font-size: 60px;
+    text-align: center;
+    width: 100%;
+    padding: 200px 0px 20px 0px;
+    border-radius: 0 0 20px 20px;
+  }
 
   &__logo {
     width: 20%;
@@ -13,14 +24,10 @@
 }
 .project {
   max-width: 800px;
-  &__title {
-    font-size: 60px;
-    text-align: center;
-  }
+
   &__pitch {
     font-size: 30px;
-    margin-top: 30px;
-    line-height: 35px;
+    line-height: 40px;
   }
   &__mission {
     margin-top: 30px;

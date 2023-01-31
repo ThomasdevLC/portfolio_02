@@ -8,9 +8,9 @@ import "./Groupomania.scss";
 
 const Groupomania = () => {
   return (
-    <div className="container">
+    <section className="container">
+      <h1 className="container__title">GROUPOMANIA</h1>
       <div className="project">
-        <h1 className="project__title">GROUPOMANIA</h1>
         <p className="project__pitch">
           Dans le cadre d'un des projet Openclassrooms, il était demandé
           d'intégrer le design d'une maquette figma avec la technologie
@@ -59,11 +59,11 @@ const Groupomania = () => {
           </p>
         </div>
       </div>
-      <img
+      {/* <img
         className="container__logo"
         src={logo}
         alt="video site groupomania"
-      />
+      /> */}
       <video
         className="container__video"
         width="100%"
@@ -72,7 +72,7 @@ const Groupomania = () => {
         loop
         autoPlay
       ></video>
-    </div>
+    </section>
   );
 };
 
