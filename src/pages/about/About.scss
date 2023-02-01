@@ -4,64 +4,56 @@
   height: 100vh;
   background-color: var(--gray-1);
   padding: 60px 80px;
-  display: flex;
 
-  @include mixin.md-lt {
-    flex-direction: column;
-  }
-  span {
-    font-size: 70px;
-  }
-
-  &__introduce {
-    width: 100%;
-    &__title {
-      font-family: "Kaisei Decol", serif;
-      font-size: 8rem;
-      font-weight: 700;
-      margin-bottom: 40px;
-    }
-    &__intro {
-      line-height: 30px;
-      margin-bottom: 40px;
-      margin: auto;
-    }
-    &__text {
-      width: 800px;
-      line-height: 30px;
-      margin: auto;
-    }
-  }
-  &__picture {
-    background-color: var(--orange);
-    height: 500px;
-    max-width: 480px;
-
-    @include mixin.md-lt {
-      height: 280px;
-      width: 100%;
-    }
-
-    & img {
-      opacity: 0.7;
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
-  }
-
-  &__links {
-    font-family: "Kaisei Decol", serif;
+  &__title {
+    font-family: var(--font-second);
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 9rem;
+    line-height: 8rem;
+    margin-bottom: 20px;
+
+    &__number {
+      font-family: var(--font-family);
+      -webkit-text-stroke: 1px var(--orange);
+      color: var(--gray-1);
+      font-size: 5.5rem;
+    }
+  }
+  &__introduce {
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    :hover {
-      font-style: oblique;
-      cursor: pointer;
-      transform: translate(3px);
-      transition: all 400ms;
+    margin: auto;
+
+    &__text {
+      line-height: 1.8rem;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--gray-2);
     }
   }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    &__arrow {
+      width: 80px;
+      transform: rotate(-0.13turn);
+      margin-top: -30px;
+    }
+
+    &__links {
+      font-family: var(--font-second);
+      font-weight: 900;
+      font-size: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+.about-link :hover {
+  font-style: oblique;
+  cursor: pointer;
+  transform: translate(3px);
+  transition: all 400ms;
 }

@@ -1,17 +1,18 @@
 import React from "react";
 import photo from "../../assets/images/photo.jpg";
+import arrow from "../../assets/images/arrow.png";
 import "./About.scss";
 
 const About = () => {
   return (
     <div className="about br" id="about">
-      <div className="about__introduce ">
-        <h1 className="about__introduce__title">
-          <span className="about__introduce__title__number">02.</span>
-          présentation
-        </h1>
+      <h1 className="about__title">
+        <span className="about__title__number">02*</span>
+        présentation
+      </h1>
+      <div className="about__introduce">
         <h2 className="about__introduce__intro">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />{" "}
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
           Repellendus error quisquam reprehenderit!
         </h2>
         <p className="about__introduce__text">
@@ -31,10 +32,15 @@ const About = () => {
           quae ea dicta perferendis ipsam. Nulla illum enim consequuntur
           aliquid, dolorum dolore aperiam quae.
         </p>
-        <div className="about__links">
-          <div className="about__links__linkedin">LINKEDIN</div>
-          <div className="about__links__git">GITHUB</div>
-          <div className="about__links__cv">CV</div>
+        <div className="about__bottom">
+          <div className="about__bottom__links">
+            <div className="about-link">LINKEDIN</div>
+            <div className="about-link">GITHUB</div>
+            <div className="about-link">CV</div>
+          </div>
+          <div className="about__bottom__arrow">
+            <img src={arrow} alt="" className="about__bottom__arrow__img" />
+          </div>
         </div>
       </div>
 
