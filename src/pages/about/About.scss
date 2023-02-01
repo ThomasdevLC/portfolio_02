@@ -34,11 +34,12 @@
   }
   &__bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     &__arrow {
-      width: 80px;
-      transform: rotate(-0.13turn);
-      margin-top: -30px;
+      &__icon {
+        transform: rotate(0.38turn);
+        height: 100%;
+      }
     }
 
     &__links {
@@ -51,9 +52,9 @@
     }
   }
 }
-.about-link :hover {
+.about-link:hover {
   font-style: oblique;
   cursor: pointer;
-  transform: translate(3px);
+  transform: translate(2px);
   transition: all 400ms;
 }

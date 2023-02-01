@@ -15,10 +15,11 @@ const Works = ({ imageEnter, imageLeave }) => {
     <div className="works" id="works">
       <div class="works__container">
         <div className="block">
-          <h1 className="maintitle">
-            03. projets <br />
-            2022-2023{" "}
+          <h1 className="block__maintitle">
+            <span className="block__maintitle__number"> 03* </span>
+            Projets
           </h1>
+          <p className="block__maintitle__years">2022-2023</p>
         </div>
         <NavLink to="/groupomania" className="link">
           <div

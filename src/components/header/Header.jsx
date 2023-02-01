@@ -28,15 +28,12 @@ const Header = () => {
             </li>
           </Link>
 
-          <Link to="#works" smooth>
+          <Link to="#contact" smooth>
             <li className="header__nav__menu__item" id="contactNav">
               <span className="number">04. </span>
               contact
             </li>
           </Link>
-          {/* <Link to="/#works">
-            <li className="header__nav__menu__item">test</li>
-          </Link> */}
         </div>
       </nav>
     </div>

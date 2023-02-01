@@ -33,13 +33,13 @@ const About = () => {
           aliquid, dolorum dolore aperiam quae.
         </p>
         <div className="about__bottom">
-          <div className="about__bottom__links">
-            <div className="about-link">LINKEDIN</div>
-            <div className="about-link">GITHUB</div>
-            <div className="about-link">CV</div>
-          </div>
           <div className="about__bottom__arrow">
-            <img src={arrow} alt="" className="about__bottom__arrow__img" />
+            <img src={arrow} alt="" className="about__bottom__arrow__icon" />
+          </div>
+          <div className="about__bottom__links">
+            <div className="about-link ">Linkedin </div>
+            <div className="about-link">Github </div>
+            <div className="about-link">CV</div>
           </div>
         </div>
       </div>

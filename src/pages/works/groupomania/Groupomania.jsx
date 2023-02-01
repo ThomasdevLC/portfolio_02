@@ -1,15 +1,16 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import logo from "../../../assets/images/groupomania/groupomania-logo.jpg";
 import video from "../../../assets/videos/groupomania-video.mp4";
-import react from "../../../assets/images/technos/react.png";
-import Header from "../../../components/header/Header";
-
 import "./Groupomania.scss";
 
 const Groupomania = () => {
   return (
     <section className="container">
       <h1 className="container__title">GROUPOMANIA</h1>
+      <Link to="/#works">
+        <div className="container__backpage"> &#x2191; PROJETS</div>
+      </Link>
       <div className="project">
         <p className="project__pitch">
           Dans le cadre d'un des projet Openclassrooms, il était demandé
