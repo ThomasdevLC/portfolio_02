@@ -1,6 +1,6 @@
 import React from "react";
 import photo from "../../assets/images/photo.jpg";
-import arrow from "../../assets/images/arrow.png";
+import arrow from "../../assets/images/arrow.svg";
 import "./About.scss";
 
 const About = () => {
@@ -33,13 +33,35 @@ const About = () => {
           aliquid, dolorum dolore aperiam quae.
         </p>
         <div className="about__bottom">
-          <div className="about__bottom__arrow">
-            <img src={arrow} alt="" className="about__bottom__arrow__icon" />
+          <div className="about__bottom__links">
+            <div className="about__bottom__links__container">
+              <p className="about__bottom__links__container__text">Linkedin</p>
+              <img
+                src={arrow}
+                alt=""
+                className="about__bottom__links__container__arrow"
+              />
+            </div>
           </div>
           <div className="about__bottom__links">
-            <div className="about-link ">Linkedin </div>
-            <div className="about-link">Github </div>
-            <div className="about-link">CV</div>
+            <div className="about__bottom__links__container">
+              <p className="about__bottom__links__container__text">Github</p>
+              <img
+                src={arrow}
+                alt=""
+                className="about__bottom__links__container__arrow"
+              />
+            </div>
+          </div>
+          <div className="about__bottom__links">
+            <div className="about__bottom__links__container">
+              <p className="about__bottom__links__container__text">CV</p>
+              <img
+                src={arrow}
+                alt=""
+                className="about__bottom__links__container__arrow"
+              />
+            </div>
           </div>
         </div>
       </div>
